@@ -6,7 +6,7 @@ const Cors = require('cors')
 const path = require("path")
 require("./db_connection")
 
-var WhiteList = ['http://localhost:3000', 'http://localhost:8000', null];
+var WhiteList = ['https://ministore-b9nd.onrender.com', null];
 
 var corsOption = {
   origin: function (origin, callback) {
